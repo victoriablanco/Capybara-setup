@@ -1,0 +1,28 @@
+<p>
+  Description:
+<%= @event.description %>
+</p>
+
+<p>
+  Location:
+<%= @event.location %>
+</p>
+
+<p>
+  Capacity:
+<%= @event.capacity %>
+</p>
+
+<p>
+  Date:
+<%= @event.date %>
+</p>
+
+<p>
+  Requires ID:
+<%= @event.requires_id %>
+</p>
+
+
+<%= link_to "Show all events", events_path %> |
+<%= link_to "Edit", edit_event_path(@event) %>
