@@ -17,7 +17,7 @@ feature "Events" do
     expect(page).to have_content("My awesome event")
   end
 
-  # ________________
+  # _________________
   #   UPDATE
   scenario "User edits an event" do    #SET UP (THRU ROOT PATH)  ---UPDATE----TEST ABILITY TO EDIT AN EVENT
     Event.create!(
