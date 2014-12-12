@@ -10,3 +10,7 @@
 ## Find the bug!
 
 Once you've added RSpec and capybara, spec the entire crud flow, and find and fix the bug.
+
+
+
+[![Build Status](https://travis-ci.org/victoriabillingsley/Capybara-setup.svg)](https://travis-ci.org/victoriabillingsley/Capybara-setup)
